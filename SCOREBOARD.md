@@ -31,6 +31,14 @@ Last 50 games:
 - Rating moved from 1625 to 1717
 - Net change: +92
 - Average change: +1.84 rating points per game
+- Wins: 29
+- Draws: 3
+- Losses: 18
+- Score: 30.5/50, 61.0%
+
+Defensive stability target:
+
+Start tracking whether some losses can be converted into draws. The goal is not passive play; it is to keep defending when worse, reduce tilt losses, and make opponents prove the conversion.
 
 ## Volume
 
@@ -49,6 +57,7 @@ Opening incidents: 1
 Endgame incidents: 0
 Games lost from better or equal positions:
 Games saved from worse positions:
+Losses converted to draws:
 Winning positions converted: 1 tactical win by mate after opponent blunder
 
 ## Process Metrics

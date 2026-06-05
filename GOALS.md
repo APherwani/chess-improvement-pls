@@ -14,6 +14,8 @@ Maintain 1700+ for about one week without a hard tilt spiral.
 
 This matters because the recent rating history shows that uncontrolled volume and rage quitting can erase progress quickly. For now, stability above 1700 is a valid success condition before pushing aggressively toward 1800.
 
+Secondary stability target: convert some likely losses into draws by defending worse positions seriously instead of tilting, resigning emotionally, or making the opponent's conversion easy.
+
 ## Milestones
 
 - Stabilize above 1700.
@@ -35,6 +37,7 @@ Reduce recurring self-inflicted losses:
 - strategic autopilot
 - opening traps caused by game-relevant knowledge gaps
 - endgame failures that appear in real games
+- resigning the practical fight too early in worse positions
 
 ## What Counts As Progress
 
@@ -46,6 +49,7 @@ Reduce recurring self-inflicted losses:
 - Clearer middlegame plans after the opening.
 - More engine recommendations translated into human explanations.
 - Rating trend over larger samples, not daily fluctuations.
+- Turning some worse positions or likely losses into draws.
 
 ## What Does Not Count As Progress
 
