@@ -24,11 +24,18 @@ If you blunder massively, continue and review the game.
 
 Pre-system evidence showed losses clustering in multi-game sessions:
 
+- 2026-05-13 to 2026-05-14: 6 consecutive losses, roughly -48 rating if about 8 points per game.
 - 2026-05-24: W / D / L / L across 4 rapid games.
 - 2026-05-25: W / L / L / L across 4 rapid games.
 - 2026-05-22: 13 rapid games in one day, even though the net rating change was positive.
 
 The cap is not punishment. It protects the review loop from turning into rating-chasing, tilt repair, or "one more game" momentum.
+
+## Loss Cascade Rule
+
+After a rated loss, no immediate "repair" game. Save the PGN and start the review.
+
+If a second rated game is allowed by the exception and is also a loss, stop rated play for the day.
 
 ## Every Five Games
 

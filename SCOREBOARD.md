@@ -30,6 +30,7 @@ Pre-system volume clustering evidence:
 
 | Date | Games Played | Result Pattern | Rating Movement | Lesson |
 |---|---:|---|---|---|
+| 2026-05-13 to 2026-05-14 | 6 | L / L / L / L / L / L | about -48 if about 8 points per game | Loss cascades can cross days. Stop rules need to interrupt streak repair, not just single-session volume. |
 | 2026-05-22 | 13 | 8W / 0D / 5L | 1633 -> 1649, +16 | Even a winning day became excessive volume. The process risk was not worth 13 rapid games. |
 | 2026-05-24 | 4 | W / D / L / L | 1679 -> 1662, -17 | Session started fine, then losses clustered at the end. |
 | 2026-05-25 | 4 | W / L / L / L | 1670 -> 1647, -23 | First game was a win; continuing turned the day into a losing streak. |
