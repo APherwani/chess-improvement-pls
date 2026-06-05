@@ -175,26 +175,124 @@ White's h3 opened h2 and allowed the queen to finish the b8-h2 diagonal. This sh
 
 ## Phase 3: Engine Comparison
 
-Do not complete until Phase 1 and Phase 2 are written.
+Engine: Stockfish 18, official Apple Silicon binary.
+
+Engine details: [games/engine-lines/G001-engine.md](/Users/arjun/dev/chess-improvement-pls/games/engine-lines/G001-engine.md)
+
+### Engine Moment 1: 12...a5
+
+Engine preferred moves: 12...bxc5, 12...Nbd7, or 12...Rc8.
+
+Engine eval before my move: about +0.49 to +0.59 with best play.
+
+Engine eval after my move: +1.12.
+
+Eval swing: about +0.6 toward White.
+
+Human explanation:
+
+My suspicion was aimed at the right structure, but the engine points one move earlier than my first guess. 12...a5 was not a tactical blunder, but it committed me to a queenside structure where White's b5-b6 plan became very natural. The problem was not just the move; it was that I played it without consciously pricing the passed-pawn race.
+
+Classification: opening drift, pawn structure, candidate move failure.
+
+Could I realistically have found this in a rapid game? yes.
+
+Thinking habit:
+
+Before a flank pawn move locks or opens a pawn majority, ask: "What is their natural pawn break, and what passed pawn could they create?"
+
+### Engine Moment 2: 13...bxc5
+
+Engine preferred move: 13...axb4.
+
+Engine eval before my move: about +0.26 to +0.51 depending on line.
+
+Engine eval after my move: +0.39.
+
+Eval swing: small; this was not the main mistake.
+
+Human explanation:
+
+My post-game suspicion that 13...bxc5 was the blunder was only partly right. After White played 13.Ba3, 13...bxc5 was playable enough. The cleaner engine idea, 13...axb4, directly removes the advanced b-pawn before it becomes the monster. The larger lesson is that I noticed the right theme but diagnosed it a move late.
+
+Classification: pawn structure, move-order issue.
+
+Could I realistically have found this in a rapid game? yes, if I had asked which White pawn I most needed to stop.
+
+### Engine Moment 3: 16...e4
+
+Engine preferred moves: 16...Rfe8, 16...h5, or 16...Rfd8.
+
+Engine eval before my move: about +1.7 for White.
+
+Engine eval after my move: +2.18.
+
+Eval swing: about +0.4 to +0.5 toward White.
+
+Human explanation:
+
+By move 16, White was already better. 16...e4 gave me attacking dreams, but it did not solve the b-pawn. The engine prefers moves that improve coordination or defensive readiness before trying to race on the kingside.
+
+Classification: strategic model, initiative, defensive resource.
+
+Could I realistically have found this in a rapid game? maybe.
+
+Simpler rule:
+
+When a passed pawn is about to become dangerous, check whether the active move changes the race or only changes the subject.
+
+### Engine Moment 4: 20...Neg4
+
+Engine preferred moves: 20...Re8, 20...Rf8, or 20...Qb7.
+
+Engine eval before my move: about +1.9 for White.
+
+Engine eval after my move: +2.91.
+
+Eval swing: about +1.0 toward White.
+
+Human explanation:
+
+20...Neg4 created a real mating motif, but objectively it looks like a speculative try. It won because White played h3 and allowed Qh2#, not because the attack was fully sound. This is still valuable practical chess, but the lesson should not be "the attack worked"; it should be "I found a tactic after getting strategically worse."
+
+Classification: initiative, tactical resource, practical defense.
+
+Could I realistically have found a more solid move? maybe, but the bigger repair is earlier.
+
+Simpler rule:
+
+Do not let a later opponent blunder retroactively validate the earlier strategic choices.
+
+### Engine Moment 5: 21...Qh2#
+
+Engine confirms mate in 1.
+
+Human explanation:
+
+White's h3 moved the pawn off h2, opened the b8-h2 diagonal, and allowed Qh2#. The knight on g4 covers h2, so the king cannot capture the queen.
+
+Classification: tactical resource.
+
+This was a tactical success.
 
 ## Logged Misses
 
-Biggest tactical miss:
+Biggest tactical miss: no major Black tactical miss confirmed; tactical success was finding 21...Qh2#.
 
-Biggest positional or strategic miss:
+Biggest positional or strategic miss: 12...a5 as an unpriced structural commitment that allowed White's natural queenside pawn-majority plan.
 
-Biggest time-usage or decision-process miss:
+Biggest time-usage or decision-process miss: getting pulled into White's fast pace and not stopping at the first queenside structural commitment.
 
 ## Incidents
 
-Opening incident? pending
+Opening incident? yes, see [OPENING_INCIDENTS.md](/Users/arjun/dev/chess-improvement-pls/OPENING_INCIDENTS.md)
 
 Endgame incident? no endgame reached
 
 ## Next Game
 
-One focus:
+One focus: Before committing a flank pawn move in an opening or early middlegame structure, name the opponent's natural pawn break and passed-pawn route.
 
-Trigger:
+Trigger: I am considering a pawn move like ...a5/...b5/...h5 that changes the structure instead of simply developing or resolving tension.
 
-Question to ask during the next game:
+Question to ask during the next game: If I play this pawn move, what pawn break or passed pawn am I allowing?

@@ -2,27 +2,27 @@
 
 ## Next Serious Game
 
-Date: 2026-06-04
+Date: 2026-06-05
 
-Game number: G001
+Game number: G002
 
 ## Active Focus
 
-Focus: Recognize the first critical moment and slow down.
+Focus: Name the opponent's natural pawn break before making a structural flank pawn move.
 
-Trigger: The position first becomes tactically sharp, strategically unclear, or contains an opponent threat that could change the game.
+Trigger: I am considering a pawn move like ...a5, ...b5, h-pawn pushes, or any move that changes a pawn-majority structure.
 
-Question to ask during the game: What is my opponent threatening, and what are my two most serious candidate moves?
+Question to ask during the game: If I play this pawn move, what pawn break or passed pawn am I allowing?
 
-Post-game evidence to collect: Which move was the first real critical moment, how much time I spent there, and whether I identified the opponent's main threat.
+Post-game evidence to collect: The first structural pawn decision, the candidate moves I considered, and whether I named the opponent's pawn break before moving.
 
 ## Current Active Gap
 
-Gap: none yet
+Gap: none yet; watching for repeated pawn-structure commitments made without naming the opponent's pawn break
 
 Evidence link:
 
-Repair question:
+Repair question: Did I consciously price the opponent's pawn break before changing the structure?
 
 ## Guardrails
 

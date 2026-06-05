@@ -87,18 +87,26 @@ First critical moment: 12...a5 / 13...bxc5 queenside structure decision.
 
 Biggest tactical miss:
 
+No major Black tactical miss confirmed; tactical success was finding 21...Qh2#.
+
 Biggest positional or strategic miss:
+
+12...a5 as an unpriced structural commitment that allowed White's natural queenside pawn-majority plan.
 
 Biggest time or decision-process miss:
 
+Getting pulled into White's fast pace and not stopping at the first queenside structural commitment.
+
 One next-game focus:
+
+Before committing a flank pawn move in an opening or early middlegame structure, name the opponent's natural pawn break and passed-pawn route.
 
 Files updated:
 
-- [ ] GAME_LOG.md
-- [ ] MISS_LOG.md
-- [ ] GAP_LOG.md, if promoted
-- [ ] OPENING_INCIDENTS.md, if triggered
-- [ ] ENDGAME_INCIDENTS.md, if triggered
-- [ ] SCOREBOARD.md
-- [ ] NEXT_DAY_PLAN.md
+- [x] GAME_LOG.md
+- [x] MISS_LOG.md
+- [x] GAP_LOG.md, if promoted (not promoted)
+- [x] OPENING_INCIDENTS.md, if triggered
+- [x] ENDGAME_INCIDENTS.md, if triggered (not triggered)
+- [x] SCOREBOARD.md
+- [x] NEXT_DAY_PLAN.md

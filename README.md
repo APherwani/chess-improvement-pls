@@ -2,8 +2,10 @@
 
 This is a repo-backed personal learning system for improving at chess rapid.
 
-Current level: 1710 chess.com rapid.  
-First goal: 1850 chess.com rapid.  
+Current level: 1710 chess.com rapid.
+
+First goal: 1850 chess.com rapid.
+
 Stretch goal: 2000 if progress and enjoyment remain strong.
 
 The system is not a generic chess-study repo. It is a forensic review system for your own games.
@@ -42,6 +44,15 @@ Print FENs from a saved PGN:
 ```bash
 python3 scripts/pgn_positions.py games/raw-pgn/G001.pgn --after-ply 23
 ```
+
+Run engine comparison after the no-engine review is complete:
+
+```bash
+STOCKFISH_PATH=.local/stockfish/stockfish/stockfish-macos-m1-apple-silicon \
+python3 scripts/analyze_moments.py games/raw-pgn/G001.pgn --before-ply 23
+```
+
+The local Stockfish binary is intentionally ignored by Git. Download it from the official Stockfish page and place it under `.local/stockfish/`.
 
 ## Study Policy
 
