@@ -4,7 +4,7 @@ Use this as the index of serious games. Every row should point to the actual PGN
 
 | Game ID | Date | Color | Result | Opening | My Rating | Opp Rating | PGN | Review | Top Miss | Next Focus |
 |---|---|---|---|---|---:|---:|---|---|---|---|
-| | | | | | | | | | | |
+| G001 | 2026-06-04 local / 2026-06-05 UTC | Black | 0-1 | D04 Colle System | 1717 | 1698 | games/raw-pgn/G001.pgn | games/annotated/G001-review.md | pending review | pending review |
 
 ## Game ID Convention
 
@@ -23,4 +23,3 @@ games/raw-pgn/G001.pgn
 games/annotated/G001-review.md
 games/engine-lines/G001-engine.md
 ```
-

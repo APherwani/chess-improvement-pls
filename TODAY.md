@@ -28,17 +28,17 @@ Examples:
 ## Game
 
 Game ID: G001
-Time control:
-Color:
-Opponent rating:
-My rating before:
-Result:
+Time control: 10+0
+Color: Black
+Opponent rating: 1698
+My rating before: 1717
+Result: 0-1, Black won by checkmate
 PGN file: games/raw-pgn/G001.pgn
 
 ## Immediate No-Engine Self-Review
 
-Result:
-Opening:
+Result: 0-1, Black won by checkmate
+Opening: D04, Colle System structure
 Emotional state:
 Time trouble? yes/no
 

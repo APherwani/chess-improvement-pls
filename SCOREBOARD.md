@@ -9,8 +9,8 @@ Peak during this system:
 
 ## Volume
 
-Games played:
-Games fully reviewed:
+Games played: 1
+Games fully reviewed: 0
 Five-game reviews completed:
 Monthly reviews completed:
 
@@ -38,5 +38,4 @@ Repair drills created from own games:
 
 | Date | Game ID | Rating Before | Rating After | Result | Fully Reviewed? | S4/S5 Misses | Focus Kept? |
 |---|---|---:|---:|---|---|---:|---|
-| | | | | | | | |
-
+| 2026-06-04 local / 2026-06-05 UTC | G001 | 1717 | | 0-1 | no | | pending |
