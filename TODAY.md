@@ -39,29 +39,50 @@ PGN file: games/raw-pgn/G001.pgn
 
 Result: 0-1, Black won by checkmate
 Opening: D04, Colle System structure
-Emotional state:
-Time trouble? yes/no
+Emotional state: fine
+Time trouble? no
 
 Where did I feel comfortable?
 
+The opening initially felt fine, even though I do not know much about the Colle System.
+
 Where did I feel confused?
+
+I became unsure after allowing White's queenside play to create a supported passed pawn on b6.
 
 Where did I feel under pressure?
 
+When the b6 passer appeared and I had to seek kingside counterplay.
+
 Where did I feel winning?
+
+When the queen and knights coordinated and White allowed Qh2#.
 
 Where did I feel lost?
 
+Not lost, but uncomfortable after b6.
+
 What move do I most suspect was bad?
+
+Move 13, ...bxc5. Move 12, ...a5, may be playable, but I did not understand the commitment.
 
 What position do I want to check with the engine?
 
+The move 12 to 13 queenside tension: whether ...a5 and ...bxc5 let White get too much queenside play.
+
 What was my plan after the opening?
+
+Create counterplay on the kingside with the knights and queen on the b8-h2 diagonal.
 
 What was my opponent's main threat that I noticed?
 
+The supported passed pawn on b6.
+
 What threat did I possibly miss?
 
+The natural b5-b6 plan and how strong White's queenside majority would become after the tension release.
+
+First critical moment: 12...a5 / 13...bxc5 queenside structure decision.
 ## After Review
 
 Biggest tactical miss:

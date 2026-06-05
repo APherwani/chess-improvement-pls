@@ -29,6 +29,20 @@ play one serious rapid game
 4. Use [templates/game-review-template.md](/Users/arjun/dev/chess-improvement-pls/templates/game-review-template.md).
 5. Update [GAME_LOG.md](/Users/arjun/dev/chess-improvement-pls/GAME_LOG.md), [MISS_LOG.md](/Users/arjun/dev/chess-improvement-pls/MISS_LOG.md), and [NEXT_DAY_PLAN.md](/Users/arjun/dev/chess-improvement-pls/NEXT_DAY_PLAN.md).
 
+## Local Tooling
+
+Install review helpers:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Print FENs from a saved PGN:
+
+```bash
+python3 scripts/pgn_positions.py games/raw-pgn/G001.pgn --after-ply 23
+```
+
 ## Study Policy
 
 Openings and endgames are studied only when your games create evidence that the knowledge matters.
@@ -66,4 +80,3 @@ Disallowed:
 - If you blunder massively, continue and review the game.
 - Every 5 games: complete a five-game pattern review.
 - Monthly: summarize rating trend, recurring gaps, and repaired weaknesses.
-
