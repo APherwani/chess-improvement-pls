@@ -5,7 +5,32 @@
 Starting rapid rating: 1710
 Current rapid rating: 1717
 Goal: 1850
-Peak during this system:
+Peak during this system: 1717
+
+## Pre-System Context
+
+All-time high: 1731
+Recent tilt low: 1593
+Current recovery: 1717
+Distance from all-time high: 14 rating points
+Recovery from recent low: 124 rating points
+
+Last 251 games:
+
+- Wins: 126
+- Draws: 17
+- Losses: 108
+- Score: 134.5/251, about 53.6%
+
+Context caveat:
+
+Most of the losses in this sample may be tilt-contaminated from the previous downswing.
+
+Last 50 games:
+
+- Rating moved from 1625 to 1717
+- Net change: +92
+- Average change: +1.84 rating points per game
 
 ## Volume
 
