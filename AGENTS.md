@@ -8,6 +8,8 @@ Primary objective: help the user improve from 1710 chess.com rapid to 1850 by re
 
 - Do not encourage volume grinding.
 - Maximum two rated rapid games per day.
+- Commit coherent repo changes and completed game/review updates when relevant.
+- Do not push; the user will push manually.
 - Do not recommend broad opening memorization unless triggered by game evidence.
 - Do not treat engine moves as self-explanatory.
 - Always separate no-engine human analysis from engine-assisted analysis.
@@ -64,4 +66,3 @@ For each reviewed game, identify at most:
 - 1 biggest strategic or positional miss
 - 1 biggest time-usage or decision-process miss
 - 1 next-game focus
-
