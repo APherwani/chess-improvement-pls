@@ -14,6 +14,17 @@ Opening: D04, Colle System structure
 PGN: games/raw-pgn/G001.pgn
 Engine lines: games/engine-lines/G001-engine.md
 
+## Engine Game-Review Estimate
+
+Source: user-reported Chess.com game review estimate.
+
+White quality estimate: 1650.
+Black quality estimate: 1800.
+
+User caveat:
+
+Take this with a giant grain of salt. The game was short and low-quality in a practical sense because White blundered mate in one. The useful signal is narrower: Black played the opening well, but only okay in the middlegame, where the key missed issue was White's b4-b5 pawn threat.
+
 ## Source Discipline Note
 
 This review was corrected after the user pointed out that Codex had inferred during-game reasoning from the board. In Phase 2, "My reasoning during the game" and "Line I calculated" should contain only user-reported memory. If a thought was not captured, it is marked as not captured rather than reconstructed.

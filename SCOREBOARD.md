@@ -39,3 +39,11 @@ Repair drills created from own games:
 | Date | Game ID | Rating Before | Rating After | Result | Fully Reviewed? | S4/S5 Misses | Focus Kept? |
 |---|---|---:|---:|---|---|---:|---|
 | 2026-06-04 local / 2026-06-05 UTC | G001 | 1717 | | 0-1 | yes | 0 | partial |
+
+## Noisy Engine Review Estimates
+
+Use these only as loose context. Do not treat them as proof of playing strength.
+
+| Game ID | White Estimate | Black Estimate | User Caveat |
+|---|---:|---:|---|
+| G001 | 1650 | 1800 | Short game; White blundered mate in one. Opening good, middlegame only okay. |
