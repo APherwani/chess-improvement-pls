@@ -14,6 +14,10 @@ Opening: D04, Colle System structure
 PGN: games/raw-pgn/G001.pgn
 Engine lines: games/engine-lines/G001-engine.md
 
+## Source Discipline Note
+
+This review was corrected after the user pointed out that Codex had inferred during-game reasoning from the board. In Phase 2, "My reasoning during the game" and "Line I calculated" should contain only user-reported memory. If a thought was not captured, it is marked as not captured rather than reconstructed.
+
 ## Phase 1: Immediate No-Engine Self-Review
 
 Emotional state: fine.
@@ -65,7 +69,7 @@ The decision around 12...a5 and 13...bxc5, because I walked into a structure whe
 
 How much time did I spend there?
 
-Not recorded, but likely less than the position deserved because White's fast play pulled me into their pace.
+Not recorded. User-reported that White's fast play pulled me into their pace.
 
 Did I ask what my opponent was threatening?
 
@@ -81,21 +85,25 @@ Move: 12...a5
 Position/FEN: rn3rk1/p1q2pbp/1pp1pnp1/2Pp4/PP1P4/4PN2/2Q1BPPP/R1B2RK1 b - - 0 12
 My move: 12...a5
 Candidate moves I considered: not clearly remembered; in review, ...bxc5 to clarify the c5 tension looks like the simpler candidate to compare.
-Move I would choose now without engine: I would slow down and decide whether ...a5 is a conscious structural commitment or whether I should first resolve the c5 tension.
-Evaluation guess: unclear, but probably playable for Black if I understand the queenside consequences.
-Estimated eval: roughly equal to slightly uncomfortable for Black in practical terms.
+Move I would choose now without engine: not definitively chosen. Post-game, the simpler idea to compare was taking on c5 earlier to clear the tension.
+Evaluation guess: not provided.
+Estimated eval: not provided.
 
 My reasoning during the game:
 
-The move looked natural as queenside counterplay against White's space. I did not treat it as a major commitment.
+Not captured. Do not infer this from the board. The user did not explicitly report what 12...a5 was intended to accomplish during the game.
 
 What I missed or was unsure about:
 
-I did not fully see that White's b5-b6 plan could become very direct, creating a supported passed pawn and giving the bishop on a3/b2 a strong role.
+User-reported: I did not fully see that White's b5-b6 plan could become very direct and create a supported passed pawn.
 
 Line I calculated:
 
-Only loosely: ...a5, White continues queenside expansion, and I look for counterplay. I did not deeply calculate the b5-b6 structure.
+Not captured. User-reported that the b5-b6 structure was not really seen or priced before committing.
+
+Post-game interpretation, not during-game memory:
+
+On the board, 12...a5 functioned as a challenge to White's queenside space. The user did not report that as the conscious intention during the game.
 
 ### Critical Moment 2
 
@@ -103,65 +111,69 @@ Move: 13...bxc5
 Position/FEN: rn3rk1/2q2pbp/1pp1pnp1/p1Pp4/PP1P4/B3PN2/2Q1BPPP/R4RK1 b - - 1 13
 My move: 13...bxc5
 Candidate moves I considered: not clearly remembered.
-Move I would choose now without engine: I would compare ...bxc5 with maintaining tension and with earlier simplification plans. The key is not the exact move yet; it is understanding what pawn structure I am allowing.
-Evaluation guess: this may be where Black's practical problem begins.
-Estimated eval: unclear, but I suspect White may become easier to play.
+Move I would choose now without engine: not definitively chosen. Post-game suspicion was that this was the main mistake, though the earlier 12...a5 commitment also needed checking.
+Evaluation guess: not provided.
+Estimated eval: not provided.
 
 My reasoning during the game:
 
-I likely treated the capture as normal tension release.
+Not captured. Do not infer this from the board.
 
 What I missed or was unsure about:
 
-After dxc5, White keeps queenside space and can use b5-b6 to create a dangerous passer. I underestimated how obvious and forcing White's queenside play would become.
+User-reported: I missed that White's very obvious-in-hindsight play was b5-b6, breaking through and creating a supported passed pawn.
 
 Line I calculated:
 
-I did not fully calculate the follow-up b5-b6 and how uncomfortable the supported passer would feel.
+Not captured. User-reported that the supported passed pawn appeared suddenly and felt scary.
+
+Post-game interpretation, not during-game memory:
+
+The engine later showed that 13...bxc5 was not the main issue. This should not be backfilled as something the user knew during the game.
 
 ### Critical Moment 3
 
 Move: 16...e4 after 16.b5
 Position/FEN: r4rk1/2qn1pbp/2p2np1/pPPpp3/P7/B3PN2/2Q1BPPP/2R2RK1 b - - 0 16
 My move: 16...e4
-Candidate moves I considered: kingside counterplay ideas; not sure whether I seriously considered eliminating the b-pawn.
-Move I would choose now without engine: I would first ask whether I can or must stop b6 before starting kingside play.
-Evaluation guess: practically scary for Black because White can create a supported passer, but Black may have counterplay.
-Estimated eval: unclear.
+Candidate moves I considered: not captured beyond the general queen-and-knight counterplay idea.
+Move I would choose now without engine: not provided.
+Evaluation guess: not provided.
+Estimated eval: not provided.
 
 My reasoning during the game:
 
-I switched to counterplay: if White is getting a queenside passer, I need activity against the king.
+User-reported: I tried to create counterplay with my knights on White's kingside, coordinating with my queen on b8.
 
 What I missed or was unsure about:
 
-I did not know whether allowing b6 was objectively acceptable compensation or just panic-counterplay. This is the main strategic question of the game.
+Not captured as a during-game thought. Post-game, the strategic question to check was whether this counterplay compensated for the b6 passer.
 
 Line I calculated:
 
-White advances b6, my queen retreats to b8, and I try to coordinate queen and knights toward the kingside.
+Not captured beyond the general queen-and-knight counterplay idea.
 
 ### Critical Moment 4
 
 Move: 20...Neg4
 Position/FEN: rqr3k1/5pbp/1Pp2np1/p1Ppn3/P2Np3/1Q2P3/1B2BPPP/2R2RK1 b - - 6 20
 My move: 20...Neg4
-Candidate moves I considered: kingside attacking moves with the knights and queen.
-Move I would choose now without engine: 20...Neg4 still looks like the practical attacking idea to examine.
-Evaluation guess: Black has real threats, but I do not know whether they compensate for the queenside passer.
-Estimated eval: unclear.
+Candidate moves I considered: not captured beyond the general queen-and-knight counterplay idea.
+Move I would choose now without engine: not provided.
+Evaluation guess: not provided.
+Estimated eval: not provided.
 
 My reasoning during the game:
 
-The queen on b8 and knight jump to g4 coordinate against h2. This was my practical compensation for the queenside pressure.
+User-reported: I was trying to create counterplay with my knights on the kingside and queen on b8.
 
 What I missed or was unsure about:
 
-I am not sure whether the attack was sound or whether White simply walked into it.
+Not captured as a during-game thought. Post-game, the thing to check was whether the attack was sound or whether White simply walked into it.
 
 Line I calculated:
 
-After h3, Qh2# is mate.
+Resulting tactic: after 21.h3, 21...Qh2# was mate.
 
 ### Final Tactical Moment
 
@@ -231,7 +243,7 @@ Eval swing: about +0.4 to +0.5 toward White.
 
 Human explanation:
 
-By move 16, White was already better. 16...e4 gave me attacking dreams, but it did not solve the b-pawn. The engine prefers moves that improve coordination or defensive readiness before trying to race on the kingside.
+By move 16, White was already better. 16...e4 created attacking chances, but it did not solve the b-pawn. The engine prefers moves that improve coordination or defensive readiness before trying to race on the kingside.
 
 Classification: strategic model, initiative, defensive resource.
 

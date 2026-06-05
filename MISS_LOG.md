@@ -41,11 +41,11 @@ Severity: S2
 My move: 12...a5
 Best or better move: 12...bxc5, 12...Nbd7, or 12...Rc8
 Eval swing: about +0.6 toward White compared with the engine's preferred options
-Time spent: not recorded; likely too little because White's fast play pulled me into their pace
+Time spent: not recorded; user-reported that White's fast play pulled me into their pace
 
 What I saw:
 
-...a5 looked like natural queenside counterplay against White's space.
+User-reported: I thought 12...a5 was fine. The specific during-game intention behind ...a5 was not captured.
 
 What I missed:
 
@@ -53,7 +53,11 @@ I did not fully price White's natural b5-b6 plan and the supported passed pawn t
 
 Why my move was tempting:
 
-It challenged White's queenside expansion and looked active rather than passive.
+Not captured as a during-game thought.
+
+Post-game board interpretation:
+
+...a5 challenges White's queenside expansion and looks active, which may explain why it is easy to play automatically. That is interpretation, not recorded memory.
 
 Human explanation of better move:
 

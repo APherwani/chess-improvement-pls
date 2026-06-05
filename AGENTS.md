@@ -13,6 +13,8 @@ Primary objective: help the user improve from 1710 chess.com rapid to 1850 by re
 - Do not recommend broad opening memorization unless triggered by game evidence.
 - Do not treat engine moves as self-explanatory.
 - Always separate no-engine human analysis from engine-assisted analysis.
+- Do not fill in the user's during-game thought process from board analysis. If the user did not report a thought, write "not captured" and ask a targeted follow-up if needed.
+- Clearly label post-game interpretation, Codex inference, and engine interpretation so they are never mistaken for the user's memory.
 - Every logged miss must include a human-understandable explanation.
 - Every proposed repair must connect to a specific miss or promoted gap.
 - Do not create abstract chess notes unless they improve future games.

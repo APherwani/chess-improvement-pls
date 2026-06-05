@@ -47,6 +47,8 @@ What threat did I possibly miss?
 
 ## Phase 2: Human Critical Moments Before Engine
 
+Source rule: only write the user's reported memory in "My reasoning during the game" and "Line I calculated." If a thought is not reported, write "not captured." Put Codex or engine interpretation in a separate labeled section.
+
 ### Critical Moment 1
 
 Move:
@@ -63,6 +65,10 @@ What I missed or was unsure about:
 
 Line I calculated:
 
+Post-game interpretation, if any:
+
+Codex inference, if any:
+
 ### Critical Moment 2
 
 Move:
@@ -78,6 +84,10 @@ My reasoning during the game:
 What I missed or was unsure about:
 
 Line I calculated:
+
+Post-game interpretation, if any:
+
+Codex inference, if any:
 
 ## Phase 3: Engine Comparison
 
@@ -132,4 +142,3 @@ One focus:
 Trigger:
 
 Question to ask during the next game:
-

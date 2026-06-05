@@ -33,11 +33,15 @@ Better plan: compare 12...bxc5, 12...Nbd7, and 12...Rc8 before committing the qu
 
 What I was trying to do:
 
-Challenge White's queenside space and avoid being squeezed.
+Not captured. The user did not explicitly report the intention behind 12...a5.
 
 Why it was positionally wrong or incomplete:
 
 The move gave White a natural queenside plan. If b5-b6 happens, the b-pawn becomes a supported passer and Black has to find counterplay rather than comfortably neutralizing the structure.
+
+Post-game board interpretation:
+
+12...a5 challenges White's queenside space, but also gives White a natural b5-b6 plan if Black does not handle the structure carefully.
 
 Human explanation of the better plan:
 
