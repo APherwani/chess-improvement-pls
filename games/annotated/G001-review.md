@@ -7,8 +7,8 @@ Date: 2026-06-04 local / 2026-06-05 UTC in PGN
 Time control: 10+0
 Color: Black
 Opponent rating: 1698
-My rating before: 1717
-My rating after:
+My rating before: not recorded
+My rating after: 1717
 Result: 0-1, Black won by checkmate
 Opening: D04, Colle System structure
 PGN: games/raw-pgn/G001.pgn

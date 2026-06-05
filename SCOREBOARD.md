@@ -3,7 +3,7 @@
 ## Rating
 
 Starting rapid rating: 1710
-Current rapid rating:
+Current rapid rating: 1717
 Goal: 1850
 Peak during this system:
 
@@ -38,7 +38,7 @@ Repair drills created from own games:
 
 | Date | Game ID | Rating Before | Rating After | Result | Fully Reviewed? | S4/S5 Misses | Focus Kept? |
 |---|---|---:|---:|---|---|---:|---|
-| 2026-06-04 local / 2026-06-05 UTC | G001 | 1717 | | 0-1 | yes | 0 | partial |
+| 2026-06-04 local / 2026-06-05 UTC | G001 | | 1717 | 0-1 | yes | 0 | partial |
 
 ## Noisy Engine Review Estimates
 
