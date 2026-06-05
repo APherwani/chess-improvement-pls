@@ -26,6 +26,14 @@ Context caveat:
 
 Most of the losses in this sample may be tilt-contaminated from the previous downswing.
 
+Pre-system volume clustering evidence:
+
+| Date | Games Played | Result Pattern | Rating Movement | Lesson |
+|---|---:|---|---|---|
+| 2026-05-22 | 13 | 8W / 0D / 5L | 1633 -> 1649, +16 | Even a winning day became excessive volume. The process risk was not worth 13 rapid games. |
+| 2026-05-24 | 4 | W / D / L / L | 1679 -> 1662, -17 | Session started fine, then losses clustered at the end. |
+| 2026-05-25 | 4 | W / L / L / L | 1670 -> 1647, -23 | First game was a win; continuing turned the day into a losing streak. |
+
 Last 50 games:
 
 - Rating moved from 1625 to 1717

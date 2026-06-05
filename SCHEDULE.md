@@ -20,6 +20,16 @@ A second game is allowed only if the opponent blunders massively and the game en
 
 If you blunder massively, continue and review the game.
 
+## Why The Cap Exists
+
+Pre-system evidence showed losses clustering in multi-game sessions:
+
+- 2026-05-24: W / D / L / L across 4 rapid games.
+- 2026-05-25: W / L / L / L across 4 rapid games.
+- 2026-05-22: 13 rapid games in one day, even though the net rating change was positive.
+
+The cap is not punishment. It protects the review loop from turning into rating-chasing, tilt repair, or "one more game" momentum.
+
 ## Every Five Games
 
 Complete a five-game pattern review in [reviews/five-game-reviews](/Users/arjun/dev/chess-improvement-pls/reviews/five-game-reviews).
@@ -36,4 +46,3 @@ The review must select:
 Complete a monthly review in [reviews/monthly-reviews](/Users/arjun/dev/chess-improvement-pls/reviews/monthly-reviews).
 
 Focus on rating trend, repeated gaps, repaired gaps, and whether the practice model still feels worth continuing.
-

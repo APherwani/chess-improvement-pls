@@ -16,6 +16,8 @@ This matters because the recent rating history shows that uncontrolled volume an
 
 Secondary stability target: convert some likely losses into draws by defending worse positions seriously instead of tilting, resigning emotionally, or making the opponent's conversion easy.
 
+Session stability target: avoid multi-game patterns like W / L / L / L or W / D / L / L. A good first game is not permission to keep playing rated games until the day turns.
+
 ## Milestones
 
 - Stabilize above 1700.
