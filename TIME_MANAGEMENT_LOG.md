@@ -11,6 +11,7 @@ Track whether time usage matches position difficulty.
 - blitzing recaptures
 - overthinking safe positions
 - avoiding calculation in unclear positions
+- making 2 to 3 automatic moves in a row while there is still plenty of time
 
 ## Entries
 
@@ -34,11 +35,11 @@ More. White's fast pace pulled me into playing as if the position was routine.
 
 Better clock decision:
 
-Pause before the structural pawn move and name White's natural pawn break.
+Pause before the structural pawn move and name White's natural pawn break. If the last move was automatic, the next move must earn a short stop.
 
 Next-game trigger:
 
-When the opponent is playing fast and I am about to make a pawn move that changes the structure, stop and ask what pawn break I am allowing.
+When the opponent is playing fast and I am about to make a second or third natural move in a row, stop and ask what obvious move is coming down the pipeline.
 
 ### Time Incident YYYY-MM-DD-01
 

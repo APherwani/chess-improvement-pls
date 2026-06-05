@@ -283,6 +283,10 @@ Biggest positional or strategic miss: 12...a5 as an unpriced structural commitme
 
 Biggest time-usage or decision-process miss: getting pulled into White's fast pace and not stopping at the first queenside structural commitment.
 
+Refined process lesson:
+
+Do not make 2 to 3 automatic moves in a row when there is time on the clock. If the previous move was automatic, force a short stop before the next natural move and ask what obvious reply, pawn break, or structural idea is coming down the pipeline.
+
 ## Incidents
 
 Opening incident? yes, see [OPENING_INCIDENTS.md](/Users/arjun/dev/chess-improvement-pls/OPENING_INCIDENTS.md)
@@ -291,8 +295,8 @@ Endgame incident? no endgame reached
 
 ## Next Game
 
-One focus: Before committing a flank pawn move in an opening or early middlegame structure, name the opponent's natural pawn break and passed-pawn route.
+One focus: Stop automatic move chains at structural moments.
 
-Trigger: I am considering a pawn move like ...a5/...b5/...h5 that changes the structure instead of simply developing or resolving tension.
+Trigger: I made one automatic-looking move last move and now want to make another natural move.
 
-Question to ask during the next game: If I play this pawn move, what pawn break or passed pawn am I allowing?
+Question to ask during the next game: What obvious move is coming down the pipeline for my opponent?

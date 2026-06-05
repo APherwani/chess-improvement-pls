@@ -8,13 +8,13 @@ Game number: G002
 
 ## Active Focus
 
-Focus: Name the opponent's natural pawn break before making a structural flank pawn move.
+Focus: Stop automatic move chains at structural moments.
 
-Trigger: I am considering a pawn move like ...a5, ...b5, h-pawn pushes, or any move that changes a pawn-majority structure.
+Trigger: I made an automatic-looking move last move, and I am about to make another natural pawn or developing move.
 
-Question to ask during the game: If I play this pawn move, what pawn break or passed pawn am I allowing?
+Question to ask during the game: What obvious move is coming down the pipeline for my opponent?
 
-Post-game evidence to collect: The first structural pawn decision, the candidate moves I considered, and whether I named the opponent's pawn break before moving.
+Post-game evidence to collect: The first time I wanted to make 2 to 3 natural moves in a row, whether I stopped, and whether I named the opponent's obvious reply or pawn break.
 
 ## Current Active Gap
 
@@ -22,7 +22,7 @@ Gap: none yet; watching for repeated pawn-structure commitments made without nam
 
 Evidence link:
 
-Repair question: Did I consciously price the opponent's pawn break before changing the structure?
+Repair question: Did I stop the automatic sequence and consciously price the opponent's next obvious move?
 
 ## Guardrails
 
