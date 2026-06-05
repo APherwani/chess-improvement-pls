@@ -165,7 +165,7 @@ Estimated eval: not provided.
 
 My reasoning during the game:
 
-User-reported: I was trying to create counterplay with my knights on the kingside and queen on b8.
+User-reported: I was trying to create counterplay with my knights on the kingside and queen on b8. I did not expect White to fall for the mate in one.
 
 What I missed or was unsure about:
 
@@ -173,7 +173,7 @@ Not captured as a during-game thought. Post-game, the thing to check was whether
 
 Line I calculated:
 
-Resulting tactic: after 21.h3, 21...Qh2# was mate.
+User-reported expected line: 21.Bxg4 Nxg4 22.g3, blocking the obvious mate in one, and then 22...h5 with the vague plan of ...h4 to generate kingside counterplay.
 
 ### Final Tactical Moment
 
@@ -183,7 +183,7 @@ My move: 21...Qh2#
 
 Human note:
 
-White's h3 opened h2 and allowed the queen to finish the b8-h2 diagonal. This should be logged as a tactical success, but engine review still needs to determine whether the attack was sound before White's final mistake.
+White's h3 opened h2 and allowed the queen to finish the b8-h2 diagonal. This should be logged as a tactical success, but not as the expected outcome of the attack. The user expected White to block the mate and then planned vague kingside counterplay with ...h5 and ...h4.
 
 ## Post-Engine Added Critical Moment
 
@@ -317,7 +317,7 @@ Eval swing: about +1.0 toward White.
 
 Human explanation:
 
-20...Neg4 created a real mating motif, but objectively it looks like a speculative try. It won because White played h3 and allowed Qh2#, not because the attack was fully sound. This is still valuable practical chess, but the lesson should not be "the attack worked"; it should be "I found a tactic after getting strategically worse."
+20...Neg4 created a real mating motif, but objectively it looks like a speculative try. The user did not expect White to fall for mate in one; the expected line was 21.Bxg4 Nxg4 22.g3, after which Black would try 22...h5 and ...h4 for vague kingside counterplay. The game ended immediately because White played h3 and allowed Qh2#.
 
 Classification: initiative, tactical resource, practical defense.
 

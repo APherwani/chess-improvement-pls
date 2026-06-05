@@ -132,7 +132,7 @@ Eval after played move: +2.91
 
 Human explanation:
 
-20...Neg4 is a practical attacking try, and it creates the exact Qh2 motif that wins after White's h3. But objectively it appears to worsen Black's position because White has defensive resources and the queenside passer remains extremely strong. This was a successful swindle pattern, not proof that the attack was sound.
+20...Neg4 is a practical attacking try, and it creates the exact Qh2 motif that wins after White's h3. The user did not expect mate in one; the expected practical line was 21.Bxg4 Nxg4 22.g3 h5 with the idea of ...h4 and kingside counterplay. Objectively, 20...Neg4 appears to worsen Black's position because White has defensive resources and the queenside passer remains extremely strong.
 
 Lesson:
 
