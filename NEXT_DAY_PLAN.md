@@ -2,23 +2,23 @@
 
 ## Next Serious Game
 
-Date:
+Date: 2026-06-04
 
-Game number:
+Game number: G001
 
 ## Active Focus
 
-Focus:
+Focus: Recognize the first critical moment and slow down.
 
-Trigger:
+Trigger: The position first becomes tactically sharp, strategically unclear, or contains an opponent threat that could change the game.
 
-Question to ask during the game:
+Question to ask during the game: What is my opponent threatening, and what are my two most serious candidate moves?
 
-Post-game evidence to collect:
+Post-game evidence to collect: Which move was the first real critical moment, how much time I spent there, and whether I identified the opponent's main threat.
 
 ## Current Active Gap
 
-Gap:
+Gap: none yet
 
 Evidence link:
 
@@ -41,4 +41,3 @@ Repair question:
 - Log raw misses.
 - Promote gaps only if evidence threshold is met.
 - Write the next version of this plan.
-

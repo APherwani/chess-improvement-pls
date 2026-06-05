@@ -4,11 +4,11 @@ Use this as the active workspace for today's serious game. Move completed detail
 
 ## Start Of Day
 
-Date:
+Date: 2026-06-04
 
-Active gap:
+Active gap: none yet
 
-One focus question:
+One focus question: Did I recognize the first critical moment and spend real time checking my opponent's threat before moving?
 
 Examples:
 
@@ -27,13 +27,13 @@ Examples:
 
 ## Game
 
-Game ID:
+Game ID: G001
 Time control:
 Color:
 Opponent rating:
 My rating before:
 Result:
-PGN file:
+PGN file: games/raw-pgn/G001.pgn
 
 ## Immediate No-Engine Self-Review
 
@@ -81,4 +81,3 @@ Files updated:
 - [ ] ENDGAME_INCIDENTS.md, if triggered
 - [ ] SCOREBOARD.md
 - [ ] NEXT_DAY_PLAN.md
-
