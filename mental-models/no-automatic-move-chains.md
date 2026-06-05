@@ -21,7 +21,7 @@ What obvious move is coming down the pipeline for my opponent?
 
 ## G001 Evidence
 
-Around 12...a5 and 13...bxc5, I made natural queenside moves without fully pricing White's b5-b6 plan. The engine did not say the whole sequence was losing, but it confirmed that 12...a5 was a meaningful structural concession and that White's queenside plan became the central issue.
+The concrete miss was 14...Nbd7. I tried to activate a knight, but the biggest issue was White's b-pawn threatening b4-b5. The full board made the pawn problem easy to forget.
 
 ## Repair
 

@@ -18,11 +18,11 @@ Found the Qh2# tactical shot once White allowed it.
 
 What I learned:
 
-The main issue was not the final attack or even 13...bxc5. It was 12...a5 as a structural commitment made without consciously naming White's b5-b6 plan.
+The main issue was not the final attack or 13...bxc5. The concrete engine-confirmed miss was 14...Nbd7: I activated a knight while missing that White's b-pawn was threatening b4-b5 and could become the main problem.
 
 Next-day focus:
 
-Before making a structural flank pawn move, name the opponent's natural pawn break and passed-pawn route.
+Before activating a piece, identify the opponent's biggest pawn threat.
 
 ## YYYY-MM-DD
 

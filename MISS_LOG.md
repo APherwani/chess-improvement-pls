@@ -34,45 +34,46 @@ Use [rubrics/severity-scale.md](/Users/arjun/dev/chess-improvement-pls/rubrics/s
 ### Miss 2026-06-05-01
 
 Game: G001
-Move: 12...a5
-Position/FEN: rn3rk1/p1q2pbp/1pp1pnp1/2Pp4/PP1P4/4PN2/2Q1BPPP/R1B2RK1 b - - 0 12
-Category: Candidate move failure / opening drift / pawn-structure evaluation
-Severity: S2
-My move: 12...a5
-Best or better move: 12...bxc5, 12...Nbd7, or 12...Rc8
-Eval swing: about +0.6 toward White compared with the engine's preferred options
+Move: 14...Nbd7
+Position/FEN: rn3rk1/2q2pbp/2p1pnp1/p1Pp4/PP6/B3PN2/2Q1BPPP/R4RK1 b - - 0 14
+Category: Threat blindness / candidate move failure / pawn-structure evaluation / board vision
+Severity: S3
+My move: 14...Nbd7
+Best or better move: 14...axb4
+Eval swing: about +2.1 toward White compared with 14...axb4
 Time spent: not recorded; user-reported that White's fast play pulled me into their pace
 
 What I saw:
 
-User-reported: I thought 12...a5 was fine. The specific during-game intention behind ...a5 was not captured.
+User-reported after engine review: I tried to activate my knight.
 
 What I missed:
 
-I did not fully price White's natural b5-b6 plan and the supported passed pawn that could follow.
+I did not see or recognize that White's b-pawn was threatening b4-b5, which would become the major problem of the game.
 
 Why my move was tempting:
 
-Not captured as a during-game thought.
+User-reported after engine review: I was trying to activate a knight.
 
 Post-game board interpretation:
 
-...a5 challenges White's queenside expansion and looks active, which may explain why it is easy to play automatically. That is interpretation, not recorded memory.
+14...Nbd7 is a normal-looking developing move, but the board's most urgent problem was a pawn, not a piece. With many pieces on the board, the b-pawn threat was visually easy to underweight.
 
 Human explanation of better move:
 
-The better options either clarify the c5 tension or continue development without immediately giving White such a clean queenside lever. The main issue was not that ...a5 is always bad; it was that I played it without consciously naming White's pawn break and passed-pawn route.
+14...axb4 removes the b-pawn before b4-b5 can happen. The lesson is not just "calculate better"; it is to notice when the opponent's obvious pawn move matters more than my piece activation.
 
 Root cause:
 
-- evaluation
+- board vision
+- threat recognition
 - time usage
 - opening knowledge
 - strategic model
 
 Repair idea:
 
-Next time I consider a flank pawn move that changes a pawn-majority structure, I should ask what pawn break and passed pawn I am allowing.
+Next time I want to activate a piece in a crowded position, I should first ask whether an opponent pawn move is about to change the whole structure.
 
 Promote to GAP_LOG? no
 

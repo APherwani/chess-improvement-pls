@@ -185,6 +185,36 @@ Human note:
 
 White's h3 opened h2 and allowed the queen to finish the b8-h2 diagonal. This should be logged as a tactical success, but engine review still needs to determine whether the attack was sound before White's final mistake.
 
+## Post-Engine Added Critical Moment
+
+This moment was not identified in the no-engine pass. It was added after the user reviewed the engine output.
+
+### Added Moment: 14...Nbd7
+
+Move: 14...Nbd7
+Position/FEN: rn3rk1/2q2pbp/2p1pnp1/p1Pp4/PP6/B3PN2/2Q1BPPP/R4RK1 b - - 0 14
+My move: 14...Nbd7
+Candidate moves I considered: not captured.
+Move to remember after engine review: 14...axb4.
+Evaluation guess before engine: not provided.
+Estimated eval before engine: not provided.
+
+My reasoning during the game:
+
+User-reported after engine review: I did not see or recognize the b4-b5 threat, so I tried to activate my knight.
+
+What I missed or was unsure about:
+
+User-reported after engine review: the biggest issue was a pawn. With many pieces on the board, I forgot that White's b-pawn was the concrete problem.
+
+Line I calculated:
+
+Not captured.
+
+Post-engine interpretation:
+
+14...Nbd7 develops a piece, but it lets White play b5 and make the b-pawn a major problem. 14...axb4 removes the pawn while it is still removable.
+
 ## Phase 3: Engine Comparison
 
 Engine: Stockfish 18, official Apple Silicon binary.
@@ -203,7 +233,7 @@ Eval swing: about +0.6 toward White.
 
 Human explanation:
 
-My suspicion was aimed at the right structure, but the engine points one move earlier than my first guess. 12...a5 was not a tactical blunder, but it committed me to a queenside structure where White's b5-b6 plan became very natural. The problem was not just the move; it was that I played it without consciously pricing the passed-pawn race.
+12...a5 was an early structural warning, not the concrete confirmed miss. It challenged White's b-pawn, which meant that pawn had to stay in my attention. The later problem was that I switched into routine piece development with 14...Nbd7 while the b-pawn could still advance.
 
 Classification: opening drift, pawn structure, candidate move failure.
 
@@ -211,7 +241,7 @@ Could I realistically have found this in a rapid game? yes.
 
 Thinking habit:
 
-Before a flank pawn move locks or opens a pawn majority, ask: "What is their natural pawn break, and what passed pawn could they create?"
+After a pawn move creates contact with an advanced enemy pawn, keep asking whether that pawn is still the main issue.
 
 ### Engine Moment 2: 13...bxc5
 
@@ -231,7 +261,29 @@ Classification: pawn structure, move-order issue.
 
 Could I realistically have found this in a rapid game? yes, if I had asked which White pawn I most needed to stop.
 
-### Engine Moment 3: 16...e4
+### Engine Moment 3: 14...Nbd7
+
+Engine preferred move: 14...axb4.
+
+Engine eval before my move: -0.28 with 14...axb4.
+
+Engine eval after my move: +1.82.
+
+Eval swing: about +2.1 toward White.
+
+Human explanation:
+
+This is the concrete mistake the engine flagged and the user identified after review. I activated a knight with 14...Nbd7 while the biggest problem was White's b-pawn. If Black plays 14...axb4, the b4-b5 threat is removed before it becomes a major migraine.
+
+Classification: threat blindness, candidate move failure, pawn-structure evaluation, board vision.
+
+Could I realistically have found this in a rapid game? yes.
+
+Thinking habit:
+
+Before activating a piece, ask: "Is there a pawn move coming next that changes the whole position?"
+
+### Engine Moment 4: 16...e4
 
 Engine preferred moves: 16...Rfe8, 16...h5, or 16...Rfd8.
 
@@ -253,7 +305,7 @@ Simpler rule:
 
 When a passed pawn is about to become dangerous, check whether the active move changes the race or only changes the subject.
 
-### Engine Moment 4: 20...Neg4
+### Engine Moment 5: 20...Neg4
 
 Engine preferred moves: 20...Re8, 20...Rf8, or 20...Qb7.
 
@@ -275,7 +327,7 @@ Simpler rule:
 
 Do not let a later opponent blunder retroactively validate the earlier strategic choices.
 
-### Engine Moment 5: 21...Qh2#
+### Engine Moment 6: 21...Qh2#
 
 Engine confirms mate in 1.
 
@@ -291,13 +343,13 @@ This was a tactical success.
 
 Biggest tactical miss: no major Black tactical miss confirmed; tactical success was finding 21...Qh2#.
 
-Biggest positional or strategic miss: 12...a5 as an unpriced structural commitment that allowed White's natural queenside pawn-majority plan.
+Biggest positional or strategic miss: 14...Nbd7, activating a knight while missing that White's b4-b5 pawn move was the biggest concrete threat.
 
-Biggest time-usage or decision-process miss: getting pulled into White's fast pace and not stopping at the first queenside structural commitment.
+Biggest time-usage or decision-process miss: getting pulled into White's fast pace and not stopping before 14...Nbd7 to ask what White's b-pawn was threatening.
 
 Refined process lesson:
 
-Do not make 2 to 3 automatic moves in a row when there is time on the clock. If the previous move was automatic, force a short stop before the next natural move and ask what obvious reply, pawn break, or structural idea is coming down the pipeline.
+Do not make 2 to 3 automatic moves in a row when there is time on the clock. If the previous move was automatic, force a short stop before the next natural move and ask what obvious reply, pawn break, or structural idea is coming down the pipeline. In G001, the missed obvious move was the pawn move b4-b5.
 
 ## Incidents
 
@@ -307,8 +359,8 @@ Endgame incident? no endgame reached
 
 ## Next Game
 
-One focus: Stop automatic move chains at structural moments.
+One focus: Stop automatic move chains and identify the biggest pawn threat before activating pieces.
 
-Trigger: I made one automatic-looking move last move and now want to make another natural move.
+Trigger: I want to develop or activate a piece while an opponent pawn can advance and change the structure.
 
-Question to ask during the next game: What obvious move is coming down the pipeline for my opponent?
+Question to ask during the next game: What pawn move is coming down the pipeline, and does it matter more than my piece activity?

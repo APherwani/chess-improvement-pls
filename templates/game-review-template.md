@@ -89,6 +89,23 @@ Post-game interpretation, if any:
 
 Codex inference, if any:
 
+## Post-Engine Added Critical Moments
+
+Use this only for critical moments discovered after engine review. Do not retroactively add these to Phase 2.
+
+### Added Moment 1
+
+Move:
+Position/FEN:
+My move:
+Engine better move:
+
+User-reported after engine review:
+
+What was missed:
+
+Human explanation:
+
 ## Phase 3: Engine Comparison
 
 ### Engine Moment 1

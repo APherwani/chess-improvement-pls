@@ -18,28 +18,28 @@ Track whether time usage matches position difficulty.
 ### Time Incident 2026-06-05-01
 
 Game: G001
-Move: 12...a5 / 13...bxc5
+Move: 14...Nbd7
 Clock time before move: not recorded
 Time spent: not recorded
-Position type: opening-to-middlegame pawn-structure commitment
+Position type: opening-to-middlegame piece activation while a pawn threat was pending
 
 What made the position critical?
 
-The queenside pawn structure was about to determine whether White could create a supported passed pawn on b6.
+White's b-pawn was threatening b4-b5 and could become the main strategic problem.
 
-Did I recognize it during the game? partial
+Did I recognize it during the game? no
 
 Should I have spent more or less time?
 
-More. White's fast pace pulled me into playing as if the position was routine.
+More. White's fast pace pulled me into playing as if the position was routine, and I improved a piece before checking the pawn threat.
 
 Better clock decision:
 
-Pause before the structural pawn move and name White's natural pawn break. If the last move was automatic, the next move must earn a short stop.
+Pause before the natural developing move and name White's most important pawn move. If the last move was automatic, the next move must earn a short stop.
 
 Next-game trigger:
 
-When the opponent is playing fast and I am about to make a second or third natural move in a row, stop and ask what obvious move is coming down the pipeline.
+When the opponent is playing fast and I am about to activate a piece, stop and ask what pawn move is coming down the pipeline.
 
 ### Time Incident YYYY-MM-DD-01
 

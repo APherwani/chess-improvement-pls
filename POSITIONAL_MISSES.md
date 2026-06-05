@@ -24,32 +24,32 @@ Track strategic and positional errors that materially affected your games.
 ### Positional Miss 2026-06-05-01
 
 Game: G001
-Move: 12...a5
-Position/FEN: rn3rk1/p1q2pbp/1pp1pnp1/2Pp4/PP1P4/4PN2/2Q1BPPP/R1B2RK1 b - - 0 12
-Category: pawn structure / passive but playable commitment
-Severity: S2
-My move: 12...a5
-Better plan: compare 12...bxc5, 12...Nbd7, and 12...Rc8 before committing the queenside structure.
+Move: 14...Nbd7
+Position/FEN: rn3rk1/2q2pbp/2p1pnp1/p1Pp4/PP6/B3PN2/2Q1BPPP/R4RK1 b - - 0 14
+Category: pawn threat missed / piece activation over urgent structure
+Severity: S3
+My move: 14...Nbd7
+Better plan: 14...axb4, removing the b-pawn before b4-b5.
 
 What I was trying to do:
 
-Not captured. The user did not explicitly report the intention behind 12...a5.
+User-reported after engine review: I tried to activate my knight.
 
 Why it was positionally wrong or incomplete:
 
-The move gave White a natural queenside plan. If b5-b6 happens, the b-pawn becomes a supported passer and Black has to find counterplay rather than comfortably neutralizing the structure.
+The move did not address the most urgent threat. White's b-pawn was ready to play b4-b5, and after that the b-pawn could become the main strategic feature.
 
 Post-game board interpretation:
 
-12...a5 challenges White's queenside space, but also gives White a natural b5-b6 plan if Black does not handle the structure carefully.
+14...Nbd7 is normal piece activation, but the position demanded pawn-threat recognition. The pawn was smaller than the pieces visually, but bigger than the pieces strategically.
 
 Human explanation of the better plan:
 
-The better plan is to first decide whether the c5/b4 tension should be resolved or whether development should continue. Black should not automatically play a flank pawn move without naming the pawn break White gets in return.
+The better plan is to remove the b-pawn with 14...axb4 before it can advance. Piece activity can wait when one pawn move will change the structure permanently.
 
 Transfer lesson:
 
-Before changing the pawn structure, identify the opponent's most natural pawn break and the passed pawn that could result.
+Before activating a piece, identify whether an opponent pawn move is about to become the biggest issue on the board.
 
 ### Positional Miss YYYY-MM-DD-01
 

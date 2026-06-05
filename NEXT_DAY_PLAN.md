@@ -8,21 +8,21 @@ Game number: G002
 
 ## Active Focus
 
-Focus: Stop automatic move chains at structural moments.
+Focus: Before activating a piece, identify the opponent's biggest pawn threat.
 
-Trigger: I made an automatic-looking move last move, and I am about to make another natural pawn or developing move.
+Trigger: I am about to develop, reroute, or activate a piece while the opponent has an advanced pawn or pawn majority.
 
-Question to ask during the game: What obvious move is coming down the pipeline for my opponent?
+Question to ask during the game: What pawn move is coming down the pipeline, and does it matter more than my piece activity?
 
-Post-game evidence to collect: The first time I wanted to make 2 to 3 natural moves in a row, whether I stopped, and whether I named the opponent's obvious reply or pawn break.
+Post-game evidence to collect: The first position where I activated a piece, whether I checked the opponent's most forcing pawn move first, and whether any pawn became a lasting problem.
 
 ## Current Active Gap
 
-Gap: none yet; watching for repeated pawn-structure commitments made without naming the opponent's pawn break
+Gap: none yet; watching for repeated pawn threats missed because pieces dominate attention
 
 Evidence link:
 
-Repair question: Did I stop the automatic sequence and consciously price the opponent's next obvious move?
+Repair question: Did I identify the opponent's biggest pawn threat before improving a piece?
 
 ## Guardrails
 

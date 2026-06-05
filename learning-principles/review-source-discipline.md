@@ -34,6 +34,12 @@ Engine interpretation:
 - eval changes
 - human translation of engine lines
 
+Post-engine-added critical moment:
+
+- a moment the no-engine pass missed
+- must be labeled as discovered after engine review
+- must not be inserted into the no-engine critical moment list
+
 Codex inference:
 
 - any reconstruction not explicitly reported by the user
@@ -57,4 +63,3 @@ My reasoning during the game: not captured.
 
 Post-game interpretation: the move functioned as queenside counterplay, but that was not reported as the user's conscious intention.
 ```
-

@@ -91,15 +91,15 @@ No major Black tactical miss confirmed; tactical success was finding 21...Qh2#.
 
 Biggest positional or strategic miss:
 
-12...a5 as an unpriced structural commitment that allowed White's natural queenside pawn-majority plan.
+14...Nbd7, activating a knight while missing that White's b4-b5 pawn move was the biggest concrete threat.
 
 Biggest time or decision-process miss:
 
-Getting pulled into White's fast pace and not stopping at the first queenside structural commitment.
+Getting pulled into White's fast pace and not stopping before 14...Nbd7 to ask what White's b-pawn was threatening.
 
 One next-game focus:
 
-Before committing a flank pawn move in an opening or early middlegame structure, name the opponent's natural pawn break and passed-pawn route.
+Before activating a piece, identify the opponent's biggest pawn threat.
 
 Files updated:
 

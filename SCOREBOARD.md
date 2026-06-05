@@ -30,7 +30,7 @@ Winning positions converted: 1 tactical win by mate after opponent blunder
 
 No-engine reviews completed: 1
 Critical moments identified before engine: 5
-Engine moves translated into human explanations: 5
+Engine moves translated into human explanations: 6
 Next-day plans completed: 1
 Repair drills created from own games:
 
