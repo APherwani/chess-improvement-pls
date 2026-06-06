@@ -4,19 +4,11 @@ Use this as the active workspace for today's serious game. Move completed detail
 
 ## Start Of Day
 
-Date: 2026-06-04
+Date: 2026-06-05
 
-Active gap: none yet
+Active gap: none yet; watching for repeated pawn threats missed because pieces dominate attention
 
-One focus question: Did I recognize the first critical moment and spend real time checking my opponent's threat before moving?
-
-Examples:
-
-- Did I check quiet defensive moves?
-- Did I identify my opponent's plan after the opening?
-- Did I spend time at the first critical moment?
-- Did I consider simplification when better?
-- Did I check forcing moves before making a quiet move?
+One focus question: What pawn move is coming down the pipeline, and does it matter more than my piece activity?
 
 ## Before Game
 
@@ -27,87 +19,109 @@ Examples:
 
 ## Game
 
-Game ID: G001
+Game ID: G002
 Time control: 10+0
-Color: Black
-Opponent rating: 1698
+Color: White
+Opponent rating: 1731
 My rating before: not recorded
 My rating after: 1717
-Result: 0-1, Black won by checkmate
-PGN file: games/raw-pgn/G001.pgn
+Result: 1/2-1/2, draw by repetition
+PGN file: games/raw-pgn/G002.pgn
+
+## Live Notes Captured During Game
+
+- Going to take the solid and principled Italian route, but I do not know the Hungarian Defense.
+- Played c3/d3 because it transposes to familiar territory.
+- "Should not have played h3 first."
+- Note-taking was distracting, so I stopped.
+- During the game, I was happy with how precise my play felt.
+- Opponent got frustrated and made a bad sacrifice.
 
 ## Immediate No-Engine Self-Review
 
-Result: 0-1, Black won by checkmate
-Opening: D04, Colle System structure
-Emotional state: fine
-Time trouble? no
+Result: 1/2-1/2, draw by repetition
+Opening: C50, Italian Game: Hungarian Defense
+Emotional state:
+Time trouble? yes, later in the game
 
 Where did I feel comfortable?
 
-The opening initially felt fine, even though I do not know much about the Colle System.
+I felt my play was precise for a while.
 
 Where did I feel confused?
 
-I became unsure after allowing White's queenside play to create a supported passed pawn on b6.
+After I thought I saw a clever sacrifice idea, but it turned out to be bad and gave away my advantage.
 
 Where did I feel under pressure?
 
-When the b6 passer appeared and I had to seek kingside counterplay.
+After the sacrifice went wrong, I had queen versus two rooks with many pawns on the board and low time.
 
 Where did I feel winning?
 
-When the queen and knights coordinated and White allowed Qh2#.
+After the opponent made a bad sacrifice and I had a strong advantage.
 
 Where did I feel lost?
 
-Not lost, but uncomfortable after b6.
+Not necessarily lost, but practically in danger after the bad sacrifice idea and time pressure.
 
 What move do I most suspect was bad?
 
-Move 13, ...bxc5. Move 12, ...a5, may be playable, but I did not understand the commitment.
+The sacrifice idea that looked clever but gave away the advantage.
 
 What position do I want to check with the engine?
 
-The move 12 to 13 queenside tension: whether ...a5 and ...bxc5 let White get too much queenside play.
+The sacrifice decision, and whether queen versus two rooks with many pawns was still winning or only practically difficult.
+
+Additional positions to check:
+
+- The Re2 decision after ...Qf6.
+- The Ng4 decision after ...Bd6.
+- Qxe6+ versus the reflected better idea Rxe6 without check.
+- Qe4 queen trade offer, then d4 versus the reflected rook move idea after ...Qg5.
+- The d4 / Ne3 / Nf1 defensive plan after ...h5.
+- 26...Bxg3!?, where I thought I was winning because I could take and play Qg2.
+- 29.Nf5??, where I calculated ...Rxe2 and ...Rxf5 but missed ...Qxe1!!.
 
 What was my plan after the opening?
 
-Create counterplay on the kingside with the knights and queen on the b8-h2 diagonal.
+Pressure Black's e5 pawn with natural development: Re1 on the open file, Bg5 with tempo, and later Nbd2-c4 to ask more questions.
 
 What was my opponent's main threat that I noticed?
 
-The supported passed pawn on b6.
+Around move 16, Black had a rook-and-queen battery against f2 and a natural ...Rad8 idea against the d-file/d3 structure.
 
 What threat did I possibly miss?
 
-The natural b5-b6 plan and how strong White's queenside majority would become after the tension release.
+Not captured yet for the later sacrifice. Opening/middlegame focus was Black's pressure against f2 and d3.
 
-First critical moment: 12...a5 / 13...bxc5 queenside structure decision.
+First critical moment:
+
+The sacrifice decision that gave away the advantage.
+
 ## After Review
 
 Biggest tactical miss:
 
-No major Black tactical miss confirmed; tactical success was finding 21...Qh2#.
+29.Nf5?? missing ...Qxe1!!.
 
 Biggest positional or strategic miss:
 
-14...Nbd7, activating a knight while missing that White's b4-b5 pawn move was the biggest concrete threat.
+Conversion drift after a winning position: I stayed materially ahead for a while, but the position became tactically unstable.
 
 Biggest time or decision-process miss:
 
-Getting pulled into White's fast pace and not stopping before 14...Nbd7 to ask what White's b-pawn was threatening.
+Feeling 100% winning and missing the opponent queen resource ...Qxe1!!; after the shock, I dismissed the game too much and missed the engine resource 31.Kf2.
 
 One next-game focus:
 
-Before activating a piece, identify the opponent's biggest pawn threat.
+When winning, check opponent queen captures before playing a forcing-looking move.
 
 Files updated:
 
 - [x] GAME_LOG.md
 - [x] MISS_LOG.md
-- [x] GAP_LOG.md, if promoted (not promoted)
-- [x] OPENING_INCIDENTS.md, if triggered
-- [x] ENDGAME_INCIDENTS.md, if triggered (not triggered)
+- [ ] GAP_LOG.md, if promoted
+- [ ] OPENING_INCIDENTS.md, if triggered
+- [ ] ENDGAME_INCIDENTS.md, if triggered
 - [x] SCOREBOARD.md
 - [x] NEXT_DAY_PLAN.md

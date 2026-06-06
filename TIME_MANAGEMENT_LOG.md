@@ -15,6 +15,36 @@ Track whether time usage matches position difficulty.
 
 ## Entries
 
+### Time Incident 2026-06-06-01
+
+Game: G002
+Move: 31.Kh2 and later time-pressure defense
+Clock time before move: 2:22 before 31.Kh2; later under 1 minute after move 36
+Time spent: 3 seconds on 31.Kh2
+Position type: post-blunder emotional recovery / defensive resource
+
+What made the position critical?
+
+After 29.Nf5?? and 29...Qxe1!!, the game felt thrown away, but engine review showed 31.Kf2 could still keep White better.
+
+Later, around move 43, the position was objectively dangerous because Black could use the a-pawn plan, but I was down to about 21 seconds and focused on not blundering from emotion. This is logged as low-clock defensive bandwidth, not a new primary lesson.
+
+Did I recognize it during the game? no
+
+Should I have spent more or less time?
+
+More. This was the moment to reset emotionally and look for the strange resource.
+
+Better clock decision:
+
+After a shocking opponent resource, spend one serious move searching for the best defense instead of assuming the win is gone.
+
+When already under 30 seconds, the realistic goal is to find the most forcing drawing/survival path and avoid emotional collapse, not to solve every strategic plan on the board.
+
+Next-game trigger:
+
+If I blunder or get surprised, pause and ask: "What is the weird resource that keeps me alive?"
+
 ### Time Incident 2026-06-05-01
 
 Game: G001
