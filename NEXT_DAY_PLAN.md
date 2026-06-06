@@ -2,27 +2,27 @@
 
 ## Next Serious Game
 
-Date: 2026-06-05
+Date: 2026-06-06
 
-Game number: G002
+Game number: G003
 
 ## Active Focus
 
-Focus: Before activating a piece, identify the opponent's biggest pawn threat.
+Focus: When winning, check opponent queen captures before playing a forcing-looking move.
 
-Trigger: I am about to develop, reroute, or activate a piece while the opponent has an advanced pawn or pawn majority.
+Trigger: I feel completely winning and want to play a clever or forcing move.
 
-Question to ask during the game: What pawn move is coming down the pipeline, and does it matter more than my piece activity?
+Question to ask during the game: What is their best queen capture?
 
-Post-game evidence to collect: The first position where I activated a piece, whether I checked the opponent's most forcing pawn move first, and whether any pawn became a lasting problem.
+Post-game evidence to collect: The first winning or conversion position where I wanted to play a forcing move, and whether I checked all opponent queen captures first.
 
 ## Current Active Gap
 
-Gap: none yet; watching for repeated pawn threats missed because pieces dominate attention
+Gap: none yet; watching for repeated missed opponent resources during conversion
 
 Evidence link:
 
-Repair question: Did I identify the opponent's biggest pawn threat before improving a piece?
+Repair question: Did I check queen captures before trusting my tactic?
 
 ## Guardrails
 

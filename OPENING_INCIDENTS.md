@@ -30,6 +30,34 @@ Log an opening incident only if:
 - engine-only opening lines I cannot explain
 - repertoire expansion as procrastination
 
+## Aggregate Opening Baseline
+
+Source: user-provided chess.com opening statistics before this system.
+
+Caveat: these samples are small and may be tilt-contaminated. Use them as review triggers, not as instructions to memorize openings in bulk.
+
+| Opening | Moves | Games | Win % | Draw % | Loss % | Implied Record |
+|---|---|---:|---:|---:|---:|---|
+| Philidor Defense | 1. e4 e5 2. Nf3 d6 | 7 | 42.9% | 0% | 57.1% | 3W / 0D / 4L |
+| Scotch Game | 1. e4 e5 2. Nf3 Nc6 3. d4 | 6 | 16.7% | 0% | 83.3% | 1W / 0D / 5L |
+| Sicilian Defense | 1. e4 c5 | 6 | 33.4% | 33.3% | 33.3% | 2W / 2D / 2L |
+| Scandinavian Defense | 1. e4 d5 | 5 | 60% | 0% | 40% | 3W / 0D / 2L |
+| Caro-Kann Defense | 1. e4 c6 | 4 | 100% | 0% | 0% | 4W / 0D / 0L |
+| Italian Game | 1. e4 e5 2. Nf3 Nc6 3. Bc4 | 4 | 100% | 0% | 0% | 4W / 0D / 0L |
+| Owen's Defense | 1. e4 b6 | 3 | 33.3% | 0% | 66.7% | 1W / 0D / 2L |
+| Petrov's Defense | 1. e4 e5 2. Nf3 Nf6 | 3 | 100% | 0% | 0% | 3W / 0D / 0L |
+| Ruy Lopez Opening | 1. e4 e5 2. Nf3 Nc6 3. Bb5 | 3 | 33.3% | 0% | 66.7% | 1W / 0D / 2L |
+| Reti Opening | 1. Nf3 | 2 | 50% | 0% | 50% | 1W / 0D / 1L |
+
+## Baseline Watchlist
+
+- Scotch Game is the clearest statistical concern: 1W / 0D / 5L over 6 games.
+- Philidor Defense is worth watching: 3W / 0D / 4L over 7 games.
+- Owen's Defense and Ruy Lopez show poor results, but only over 3 games each.
+- Caro-Kann, Italian, and Petrov results are strong but too small to over-credit.
+
+Policy: do not study any of these abstractly. If a future reviewed game reaches one of the weak-result openings and the opening affects the game, create a focused opening incident with one minimal repair.
+
 ## Incidents
 
 ### Opening Incident 2026-06-05-01

@@ -37,6 +37,12 @@ After a rated loss, no immediate "repair" game. Save the PGN and start the revie
 
 If a second rated game is allowed by the exception and is also a loss, stop rated play for the day.
 
+## No Early Resignation Rule
+
+In serious rapid games, do not resign early. Make the opponent prove the win.
+
+Resignation is allowed only when the position is completely decided and there is no useful defensive data left to collect. Abandonment is never acceptable as part of this system.
+
 ## Every Five Games
 
 Complete a five-game pattern review in [reviews/five-game-reviews](/Users/arjun/dev/chess-improvement-pls/reviews/five-game-reviews).
