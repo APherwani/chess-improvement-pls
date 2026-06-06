@@ -3,9 +3,9 @@
 ## Rating
 
 Starting rapid rating: 1710
-Current rapid rating: 1717
+Current rapid rating: 1725 after G003; G004 pending review
 Goal: 1850
-Peak during this system: 1717
+Peak during this system: at least 1725 after G003; G004 pending review
 
 ## Pre-System Context
 
@@ -49,32 +49,47 @@ Defensive stability target:
 
 Start tracking whether some losses can be converted into draws. The goal is not passive play; it is to keep defending when worse, reduce tilt losses, and make opponents prove the conversion.
 
+Pre-system loss termination baseline:
+
+Source: user-provided chess.com stats screenshot.
+
+| Lost By | Share | Process Note |
+|---|---:|---|
+| Resignation | 68.3% | Main actionable signal: do not resign early. |
+| Abandonment | 17.1% | Treat as a hard process failure. |
+| Checkmate | 14.6% | Low checkmate share may mean many games end before the opponent has to prove conversion. |
+
+Opening baseline:
+
+Aggregate pre-system opening results are recorded in [OPENING_INCIDENTS.md](/Users/arjun/dev/chess-improvement-pls/OPENING_INCIDENTS.md). Early watchlist: Scotch Game and Philidor Defense, with small-sample caveats.
+
 ## Volume
 
-Games played: 1
-Games fully reviewed: 1
+Games played: 3 reviewed and recorded; G004 pending review
+Games fully reviewed: 3
 Five-game reviews completed:
 Monthly reviews completed:
 
 ## Quality Metrics
 
-Average severe misses per game: 0 S4/S5 after 1 game
-S4/S5 misses per 5 games: 0 after 1 game
+Average severe misses per game: 0.33 S4/S5 after 3 reviewed games
+S4/S5 misses per 5 games: 1 after 3 reviewed games
 Recurring gaps promoted: 0
 Gaps repaired:
 Opening incidents: 1
-Endgame incidents: 0
-Games lost from better or equal positions:
-Games saved from worse positions:
-Losses converted to draws:
-Winning positions converted: 1 tactical win by mate after opponent blunder
+Endgame incidents: 1 light conversion review
+Games lost from better or equal positions: 0
+Games saved from worse positions: 1
+Losses converted to draws: 1
+Early resignations avoided: 1
+Winning positions converted: 2
 
 ## Process Metrics
 
-No-engine reviews completed: 1
-Critical moments identified before engine: 5
-Engine moves translated into human explanations: 6
-Next-day plans completed: 1
+No-engine reviews completed: 3
+Critical moments identified before engine: 14
+Engine moves translated into human explanations: 13
+Next-day plans completed: 2
 Repair drills created from own games:
 
 ## Running Table
@@ -82,6 +97,8 @@ Repair drills created from own games:
 | Date | Game ID | Rating Before | Rating After | Result | Fully Reviewed? | S4/S5 Misses | Focus Kept? |
 |---|---|---:|---:|---|---|---:|---|
 | 2026-06-04 local / 2026-06-05 UTC | G001 | | 1717 | 0-1 | yes | 0 | partial |
+| 2026-06-05 local / 2026-06-06 UTC | G002 | | 1717 | 1/2-1/2 | yes | 1 | partial |
+| 2026-06-06 | G003 | 1717 | 1725 | 0-1 | yes | 0 | partial |
 
 ## Noisy Engine Review Estimates
 
@@ -90,3 +107,4 @@ Use these only as loose context. Do not treat them as proof of playing strength.
 | Game ID | White Estimate | Black Estimate | User Caveat |
 |---|---:|---:|---|
 | G001 | 1650 | 1800 | Short game; White blundered mate in one. Opening good, middlegame only okay. |
+| G003 | | 2000 | User-reported engine performance estimate; clean win with 80%+ accuracy over roughly 50 moves. |

@@ -24,6 +24,50 @@ Next-day focus:
 
 Before activating a piece, identify the opponent's biggest pawn threat.
 
+## 2026-06-05
+
+Planned focus: identify the opponent's biggest pawn threat before activating a piece.
+
+Game played? yes
+
+Game ID: G002
+
+Review completed? yes
+
+What I did well:
+
+Built pressure naturally against Black's e5 pawn, found Re2 as a useful practical move against the f2/d3 problems, and defended hard enough after the game went wrong to force a draw. After the emotional crash of throwing away a winning position, not losing the game is a real practical achievement.
+
+What I learned:
+
+The main confirmed blunder was 29.Nf5??, where I checked rook resources but missed the queen capture 29...Qxe1!!. After that shock, 31.Kf2 was a strange engine resource that could still have kept White better, so the game was not actually over when it felt emotionally over.
+
+Next-day focus:
+
+When winning, check opponent queen captures before playing a forcing-looking move.
+
+## 2026-06-06
+
+Planned focus: when winning, check opponent queen captures before playing a forcing-looking move.
+
+Game played? yes, two games
+
+Game ID: G003 and G004
+
+Review completed? in progress
+
+What I did well:
+
+G003 was a clean win: I got an early advantage, maintained control, and converted a dominant positional/endgame edge even after one exchange-loss mistake.
+
+What I learned:
+
+For G003, the main repair item is rook safety during conversion: before moving a rook in a winning endgame, check whether the opponent's bishop can attack it with tempo.
+
+Next-day focus:
+
+Pending G004 review.
+
 ## YYYY-MM-DD
 
 Planned focus:

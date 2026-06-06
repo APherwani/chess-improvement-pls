@@ -1,34 +1,33 @@
 # NEXT_DAY_PLAN.md
 
-## Next Serious Game
+## Next Required Step
 
-Date: 2026-06-05
+Date: 2026-06-06
 
-Game number: G002
+Task: review G004 before any further rated rapid game
 
 ## Active Focus
 
-Focus: Before activating a piece, identify the opponent's biggest pawn threat.
+Focus: Pending G004 review. Provisional carryover from G003: clean rook safety during conversion.
 
-Trigger: I am about to develop, reroute, or activate a piece while the opponent has an advanced pawn or pawn majority.
+Trigger: I am winning an endgame and moving a rook near an active bishop.
 
-Question to ask during the game: What pawn move is coming down the pipeline, and does it matter more than my piece activity?
+Question to ask during the game: Does their bishop have a tempo attack on my rook?
 
-Post-game evidence to collect: The first position where I activated a piece, whether I checked the opponent's most forcing pawn move first, and whether any pawn became a lasting problem.
+Post-game evidence to collect: G004 no-engine memory first, then engine comparison.
 
 ## Current Active Gap
 
-Gap: none yet; watching for repeated pawn threats missed because pieces dominate attention
+Gap: none yet; watching for repeated missed opponent resources during conversion
 
 Evidence link:
 
-Repair question: Did I identify the opponent's biggest pawn threat before improving a piece?
+Repair question: Did I check the opponent's remaining active piece resources before simplifying or converting?
 
 ## Guardrails
 
-- One serious rated rapid game.
-- A second rated game is allowed only if the opponent blunders massively and the game ends in under 5 minutes.
-- If I blunder massively, I continue and review the game.
+- No more rated rapid games until G004 is reviewed.
+- Maximum two rated rapid games per day has already been reached.
 - No engine until the no-engine review and critical moments are written.
 
 ## After The Game

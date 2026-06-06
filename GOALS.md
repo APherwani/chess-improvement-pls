@@ -18,6 +18,8 @@ Secondary stability target: convert some likely losses into draws by defending w
 
 Session stability target: avoid multi-game patterns like W / L / L / L or W / D / L / L. A good first game is not permission to keep playing rated games until the day turns.
 
+Resignation target: do not resign early in serious rapid games. If worse, keep playing for practical chances, draw resources, stalemate tricks, time pressure, and opponent conversion errors.
+
 ## Milestones
 
 - Stabilize above 1700.
@@ -40,6 +42,7 @@ Reduce recurring self-inflicted losses:
 - opening traps caused by game-relevant knowledge gaps
 - endgame failures that appear in real games
 - resigning the practical fight too early in worse positions
+- abandoning games or emotionally exiting before the game is over
 
 ## What Counts As Progress
 
@@ -52,6 +55,7 @@ Reduce recurring self-inflicted losses:
 - More engine recommendations translated into human explanations.
 - Rating trend over larger samples, not daily fluctuations.
 - Turning some worse positions or likely losses into draws.
+- Fewer losses by resignation or abandonment.
 
 ## What Does Not Count As Progress
 

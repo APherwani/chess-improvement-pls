@@ -31,6 +31,88 @@ Use [rubrics/severity-scale.md](/Users/arjun/dev/chess-improvement-pls/rubrics/s
 
 ## Entries
 
+### Miss 2026-06-06-02
+
+Game: G003
+Move: 39...Re7
+Position/FEN: 8/1r6/2p2k1p/B1p2pp1/2Ppn1P1/pP1R1K1P/P7/8 b - - 0 39
+Category: Tactical oversight / conversion failure
+Severity: S3
+My move: 39...Re7
+Best or better move: 39...fxg4+, 39...Ke5, or 39...h5
+Eval swing: about -4.9 to -2.2
+Time spent: about 22.3 seconds, from PGN clock
+
+What I saw:
+
+Not captured.
+
+What I missed:
+
+User-reported and engine-confirmed: 39...Re7 allowed 40.Bd8 and the exchange loss after 40...Nc3 41.Bxe7+ Kxe7.
+
+Why my move was tempting:
+
+Not captured.
+
+Human explanation of better move:
+
+The better moves keep the winning endgame under control without allowing the bishop to attack the rook with tempo. Black was still winning after the mistake, but the conversion became unnecessarily messy.
+
+Root cause:
+
+- calculation
+- piece safety
+- conversion
+
+Repair idea:
+
+When converting a winning endgame, check whether the opponent's bishop has a tempo attack on my rook before I move the rook.
+
+Promote to GAP_LOG? no
+
+### Miss 2026-06-06-01
+
+Game: G002
+Move: 29.Nf5
+Position/FEN: 4rr1k/p1p3p1/8/7p/3P3q/2P1N2P/PP2R1Q1/4R1K1 w - - 2 29
+Category: Calculation error / opponent resource missed / conversion failure
+Severity: S4
+My move: 29.Nf5
+Best or better move: 29.Qg6, 29.Rf1, or 29.Rd1
+Eval swing: about +5.5 to +1.4
+Time spent: about 25.6 seconds, from PGN clock
+
+What I saw:
+
+User-reported: I thought I had calculated the tactics. ...Rxe2 did not work because Qxf7#, and ...Rxf5 did not work because Rxe8+.
+
+What I missed:
+
+...Qxe1!!.
+
+Why my move was tempting:
+
+I felt 100% winning, Black's queen looked passive, and I believed my material advantage meant the tactics should work.
+
+Human explanation of better move:
+
+The better moves preserve the winning position without allowing the queen capture on e1. The key failure was not checking all opponent captures before playing the forcing-looking knight move.
+
+Root cause:
+
+- calculation
+- candidate move failure
+- emotional
+- time usage
+- conversion
+
+Repair idea:
+
+When I feel completely winning and want to play a forcing move, I must check all queen captures before moving.
+
+Promote to GAP_LOG? no
+
 ### Miss 2026-06-05-01
 
 Game: G001
