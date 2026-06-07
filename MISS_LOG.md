@@ -31,6 +31,46 @@ Use [rubrics/severity-scale.md](/Users/arjun/dev/chess-improvement-pls/rubrics/s
 
 ## Entries
 
+### Miss 2026-06-06-02
+
+Game: G003
+Move: 39...Re7
+Position/FEN: 8/1r6/2p2k1p/B1p2pp1/2Ppn1P1/pP1R1K1P/P7/8 b - - 0 39
+Category: Tactical oversight / conversion failure
+Severity: S3
+My move: 39...Re7
+Best or better move: 39...fxg4+, 39...Ke5, or 39...h5
+Eval swing: about -4.9 to -2.2
+Time spent: about 22.3 seconds, from PGN clock
+
+What I saw:
+
+Not captured.
+
+What I missed:
+
+User-reported and engine-confirmed: 39...Re7 allowed 40.Bd8 and the exchange loss after 40...Nc3 41.Bxe7+ Kxe7.
+
+Why my move was tempting:
+
+Not captured.
+
+Human explanation of better move:
+
+The better moves keep the winning endgame under control without allowing the bishop to attack the rook with tempo. Black was still winning after the mistake, but the conversion became unnecessarily messy.
+
+Root cause:
+
+- calculation
+- piece safety
+- conversion
+
+Repair idea:
+
+When converting a winning endgame, check whether the opponent's bishop has a tempo attack on my rook before I move the rook.
+
+Promote to GAP_LOG? no
+
 ### Miss 2026-06-06-01
 
 Game: G002

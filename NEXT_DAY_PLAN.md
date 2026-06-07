@@ -1,20 +1,20 @@
 # NEXT_DAY_PLAN.md
 
-## Next Serious Game
+## Next Required Step
 
 Date: 2026-06-06
 
-Game number: G003
+Task: review G004 before any further rated rapid game
 
 ## Active Focus
 
-Focus: When winning, check opponent queen captures before playing a forcing-looking move.
+Focus: Pending G004 review. Provisional carryover from G003: clean rook safety during conversion.
 
-Trigger: I feel completely winning and want to play a clever or forcing move.
+Trigger: I am winning an endgame and moving a rook near an active bishop.
 
-Question to ask during the game: What is their best queen capture?
+Question to ask during the game: Does their bishop have a tempo attack on my rook?
 
-Post-game evidence to collect: The first winning or conversion position where I wanted to play a forcing move, and whether I checked all opponent queen captures first.
+Post-game evidence to collect: G004 no-engine memory first, then engine comparison.
 
 ## Current Active Gap
 
@@ -22,13 +22,12 @@ Gap: none yet; watching for repeated missed opponent resources during conversion
 
 Evidence link:
 
-Repair question: Did I check queen captures before trusting my tactic?
+Repair question: Did I check the opponent's remaining active piece resources before simplifying or converting?
 
 ## Guardrails
 
-- One serious rated rapid game.
-- A second rated game is allowed only if the opponent blunders massively and the game ends in under 5 minutes.
-- If I blunder massively, I continue and review the game.
+- No more rated rapid games until G004 is reviewed.
+- Maximum two rated rapid games per day has already been reached.
 - No engine until the no-engine review and critical moments are written.
 
 ## After The Game

@@ -1,14 +1,14 @@
 # TODAY.md
 
-Use this as the active workspace for today's serious game. Move completed detail into the permanent logs after review.
+Use this as the active workspace for today's serious games. Move completed detail into the permanent logs after review.
 
 ## Start Of Day
 
-Date: 2026-06-05
+Date: 2026-06-06
 
-Active gap: none yet; watching for repeated pawn threats missed because pieces dominate attention
+Active gap: none yet; watching for missed opponent resources during conversion
 
-One focus question: What pawn move is coming down the pipeline, and does it matter more than my piece activity?
+One focus question: When winning, what is the opponent's best remaining resource?
 
 ## Before Game
 
@@ -17,111 +17,68 @@ One focus question: What pawn move is coming down the pipeline, and does it matt
 - Write one focus question above.
 - Commit to reviewing the game before playing another one.
 
-## Game
+## Games
 
-Game ID: G002
+Game IDs: G003 and G004
 Time control: 10+0
-Color: White
-Opponent rating: 1731
-My rating before: not recorded
-My rating after: 1717
-Result: 1/2-1/2, draw by repetition
-PGN file: games/raw-pgn/G002.pgn
+Results: two wins
+Cap decision: stop after two games
 
-## Live Notes Captured During Game
+Process note:
 
-- Going to take the solid and principled Italian route, but I do not know the Hungarian Defense.
-- Played c3/d3 because it transposes to familiar territory.
-- "Should not have played h3 first."
-- Note-taking was distracting, so I stopped.
-- During the game, I was happy with how precise my play felt.
-- Opponent got frustrated and made a bad sacrifice.
+User-reported: stopping after two wins felt right. Continuing did not feel right, and the two-game cap held.
 
-## Immediate No-Engine Self-Review
+## G003
 
-Result: 1/2-1/2, draw by repetition
-Opening: C50, Italian Game: Hungarian Defense
-Emotional state:
-Time trouble? yes, later in the game
+Color: Black
+Opponent rating: 1723
+My rating before: 1717
+My rating after: 1725
+Result: 0-1, win by resignation
+PGN file: games/raw-pgn/G003.pgn
+Review file: games/annotated/G003-review.md
 
-Where did I feel comfortable?
+## G003 Immediate Review Summary
 
-I felt my play was precise for a while.
+Overall:
 
-Where did I feel confused?
-
-After I thought I saw a clever sacrifice idea, but it turned out to be bad and gave away my advantage.
-
-Where did I feel under pressure?
-
-After the sacrifice went wrong, I had queen versus two rooks with many pawns on the board and low time.
-
-Where did I feel winning?
-
-After the opponent made a bad sacrifice and I had a strong advantage.
-
-Where did I feel lost?
-
-Not necessarily lost, but practically in danger after the bad sacrifice idea and time pressure.
-
-What move do I most suspect was bad?
-
-The sacrifice idea that looked clever but gave away the advantage.
-
-What position do I want to check with the engine?
-
-The sacrifice decision, and whether queen versus two rooks with many pawns was still winning or only practically difficult.
-
-Additional positions to check:
-
-- The Re2 decision after ...Qf6.
-- The Ng4 decision after ...Bd6.
-- Qxe6+ versus the reflected better idea Rxe6 without check.
-- Qe4 queen trade offer, then d4 versus the reflected rook move idea after ...Qg5.
-- The d4 / Ne3 / Nf1 defensive plan after ...h5.
-- 26...Bxg3!?, where I thought I was winning because I could take and play Qg2.
-- 29.Nf5??, where I calculated ...Rxe2 and ...Rxf5 but missed ...Qxe1!!.
-
-What was my plan after the opening?
-
-Pressure Black's e5 pawn with natural development: Re1 on the open file, Bg5 with tempo, and later Nbd2-c4 to ask more questions.
-
-What was my opponent's main threat that I noticed?
-
-Around move 16, Black had a rook-and-queen battery against f2 and a natural ...Rad8 idea against the d-file/d3 structure.
-
-What threat did I possibly miss?
-
-Not captured yet for the later sacrifice. Opening/middlegame focus was Black's pressure against f2 and d3.
-
-First critical moment:
-
-The sacrifice decision that gave away the advantage.
-
-## After Review
+User-reported: this was a pretty clean game. I got an early advantage and never really let go. The conversion could have been a little cleaner, but it was not bad overall. Accuracy was over 80% in a roughly 50-move game, and the engine performance estimate was around 2000.
 
 Biggest tactical miss:
 
-29.Nf5?? missing ...Qxe1!!.
+39...Re7 allowed 40.Bd8 and the exchange loss after 40...Nc3 41.Bxe7+ Kxe7.
 
 Biggest positional or strategic miss:
 
-Conversion drift after a winning position: I stayed materially ahead for a while, but the position became tactically unstable.
+Conversion could have been cleaner despite the dominant positional advantage.
 
 Biggest time or decision-process miss:
 
-Feeling 100% winning and missing the opponent queen resource ...Qxe1!!; after the shock, I dismissed the game too much and missed the engine resource 31.Kf2.
+Not captured.
 
 One next-game focus:
 
-When winning, check opponent queen captures before playing a forcing-looking move.
+Clean rook safety during conversion.
 
 Files updated:
 
 - [x] GAME_LOG.md
 - [x] MISS_LOG.md
 - [ ] GAP_LOG.md, if promoted
-- [ ] OPENING_INCIDENTS.md, if triggered
-- [ ] ENDGAME_INCIDENTS.md, if triggered
 - [x] SCOREBOARD.md
-- [x] NEXT_DAY_PLAN.md
+- [ ] NEXT_DAY_PLAN.md
+- [x] games/raw-pgn/G003.pgn
+- [x] games/annotated/G003-review.md
+- [x] games/engine-lines/G003-engine.md
+
+## G004
+
+Status: played but not reviewed yet
+
+User-reported preview:
+
+The next game was less clean, but I was never really in danger of losing that one either.
+
+Review plan:
+
+Cover G004 later.
