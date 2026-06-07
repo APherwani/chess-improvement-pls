@@ -21,6 +21,32 @@ Track tactical misses from your own games. This is not a generic puzzle list.
 
 ## Entries
 
+### Tactical Miss 2026-06-06-02
+
+Game: G003
+Move: 39...Re7
+Position/FEN: 8/1r6/2p2k1p/B1p2pp1/2Ppn1P1/pP1R1K1P/P7/8 b - - 0 39
+Motif: loose rook / bishop tempo
+Severity: S3
+My move: 39...Re7
+Tactic missed: 40.Bd8, leading to 40...Nc3 41.Bxe7+ Kxe7
+
+What I saw:
+
+Not captured.
+
+What I missed:
+
+The bishop could attack the rook with tempo, forcing Black to give up the exchange.
+
+Trigger I should recognize next time:
+
+I am converting a winning endgame and moving a rook near an active bishop.
+
+Repair drill:
+
+From this position, list every bishop attack on the rook before choosing Black's move.
+
 ### Tactical Miss 2026-06-06-01
 
 Game: G002

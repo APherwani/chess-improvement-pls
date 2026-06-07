@@ -46,6 +46,28 @@ Next-day focus:
 
 When winning, check opponent queen captures before playing a forcing-looking move.
 
+## 2026-06-06
+
+Planned focus: when winning, check opponent queen captures before playing a forcing-looking move.
+
+Game played? yes, two games
+
+Game ID: G003 and G004
+
+Review completed? in progress
+
+What I did well:
+
+G003 was a clean win: I got an early advantage, maintained control, and converted a dominant positional/endgame edge even after one exchange-loss mistake.
+
+What I learned:
+
+For G003, the main repair item is rook safety during conversion: before moving a rook in a winning endgame, check whether the opponent's bishop can attack it with tempo.
+
+Next-day focus:
+
+Pending G004 review.
+
 ## YYYY-MM-DD
 
 Planned focus:
